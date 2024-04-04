@@ -1,0 +1,81 @@
+
+@font-face {
+  font-family: "Figtree";
+  src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+  font-style: normal;
+}
+body {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 24px;
+  background-color: #F4D04E;
+}
+.container {
+  width: 384px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #111111;
+  padding: 23px;
+  display: flex;
+  flex-direction:  column;
+  justify-content: space-between;
+  gap: 24px;
+  box-sizing: border-box;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 1);
+}
+.blog-image {
+  width: 100%;
+  border-radius: 10px;
+}
+h1, h2, h3, p, .category{
+  font-family: "Figtree", "Arial", sans-serif;
+  line-height: 1.5;
+}
+h1, h3 {
+  margin: 12px 0;
+}
+
+.category {
+  background-color: #F4D04E;
+  padding: 4px 12px;
+  width: fit-content;
+  font-size: 14px;
+  font-weight: 800;
+  margin: 24px, 0, 0;
+  border-radius: 4px;
+}
+.publish-date {
+  font-size: 14px;
+  font-weight: 500;
+}
+.title {
+  font-size: 24px;
+  font-weight: 800;
+}
+.title:hover {
+  color: #F4D04E;
+  cursor: pointer;
+}
+.description {
+  font-size: 16px;
+  color: #7F7F7F;
+  margin: 12px 0 0;
+  font-weight: 500;
+}
+.author-name {
+  font-size: 14px;
+  font-weight: 800;
+  margin: 0;
+}
+.author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 12px;
+}
+.author-image {
+  width: 32px;
+}
